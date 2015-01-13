@@ -1,7 +1,5 @@
-<div class="container-fluid">
 <<<<<<< HEAD
-	<span>Jack</span>
-=======
+<div class="container-fluid">
 	<section class="row">
 		<div class="col-md-4 text-center">
 			<h1>Hello</h1>
@@ -35,5 +33,19 @@
 			<h1>Cool</h1>
 		</div>
 	</section>
->>>>>>> master
+	<section class="row">
+		<div class="col-md-4 text-center">
+			<h1>Hello</h1>
+		</div>
+		<div class="col-md-4 text-center">
+			<h1>Github is</h1>
+		</div>
+		<div class="col-md-4 text-center">
+			<h1>Cool</h1>
+		</div>
+	</section>
 </div>
+=======
+<h1>Micah is aiight</h1>
+<h2>Hey</h2>
+>>>>>>> master

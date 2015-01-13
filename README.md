@@ -22,6 +22,10 @@
 	
 	git merge branchname - This merges a branch onto the branch you're sitting on (If you're on the master branch, it mersges branchname into master).
 
+**`I recommend using feature branches vs. people branches!!!!!! For instance:`**
+
+	
+
 
 ##Quick Demo
 
