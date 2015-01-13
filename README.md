@@ -54,9 +54,14 @@ Initialize Repo
 	
 	git push -u origin master
 	
-	git checkout -b homepage
+One of you will work on homepage, the other will work on about
 	
-	git branch (Should print 'homepage')
+	git checkout -b homepage / about
+	
+	git branch (Should print the name of branch)
+
+
+Each of you will make changes to your page then add / commit the changes to your branch
 
 
 
