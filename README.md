@@ -87,9 +87,9 @@ Then, go onto Github and create a pull request
 	
 	7. Send Pull Request buttonClick Create pull request.
 
-	Source: 
+**Source: **
 	
-	[Link](https://help.github.com/articles/creating-a-pull-request)
+[Creating a pull request in Github](https://help.github.com/articles/creating-a-pull-request)
 
 View the pull request and merge it with master
 
@@ -109,6 +109,10 @@ If you have merge conflicts, subl . or git mergetool to resolve conflicts
 To configure your mergetool, use
 
 	git config --global merge.tool kdiff3
+
+**Resolving Merge Conflicts**
+
+[Resolving Merge Conflicts](https://help.github.com/articles/resolving-merge-conflicts/)
 	
 
 
