@@ -95,6 +95,20 @@ View the pull request and merge it with master
 
 	git checkout master
 	git pull
+
+If you are done with the homepage / aboutpage feature, delete the branch
+
+	git branch -d homepage / aboutpage
+
+Or, if you were to continue, you can merge master with your branch
+
+	git merge master (from your feature branch)
+	
+If you have merge conflicts, subl . or git mergetool to resolve conflicts
+
+To configure your mergetool, use
+
+	git config --global merge.tool kdiff3
 	
 
 
