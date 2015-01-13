@@ -54,16 +54,48 @@ Initialize Repo
 	
 	git push -u origin master
 	
-One of you will work on homepage, the other will work on about
+One of you will work on home page, the other will work on about page
 	
-	git checkout -b homepage / about
+	git checkout -b homepage / aboutpage
 	
 	git branch (Should print the name of branch)
 
 
-Each of you will make changes to your page then add / commit the changes to your branch
+Each of you will add a h1 title to your page (home.html.erb or about.html.erb) then add / commit the changes to your branch
 
+	git add -A
+	git commit -m "Changed (homepage/aboutpage) page"
+	git push origin (homepage/aboutpage)
 
+Then compare your branch against the master by typing the following:
+
+	git branch -v
+
+Then, go onto Github and create a pull request
+	
+	1. On GitHub, navigate to the repository from which you'd like to propose changes.
+	
+	2. Branch dropdown menuIn the "Branch" menu, choose the branch that contains your commits.
+	
+	3. Pull Request buttonTo the left of the "Branch" menu, click the green Compare and Review button.
+	
+	4. Edit button for compare pageThe Compare page will automatically select the base and compare branches; to change these, click Edit.
+	
+	5. Create pull request buttonOn the Compare page, click Create pull request.
+	
+	6. Pull Request description pageType a title and description for your pull request.
+	
+	7. Send Pull Request buttonClick Create pull request.
+
+	Source: 
+	
+	[Link](https://help.github.com/articles/creating-a-pull-request)
+
+View the pull request and merge it with master
+
+	git checkout master
+	git pull
+	
 
 
 
