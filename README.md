@@ -6,6 +6,9 @@
 - Explain what branching is, why you would branch, and how to branch.
 - Be able to branch, merge, and resolve conflicts when working in a team.
 
+Let's take a look at a repository with git merges
+
+	https://github.com/carrierwaveuploader/carrierwave/network
 
 ##Branching Commands
 
@@ -24,6 +27,36 @@
 
 **`I recommend using feature branches vs. people branches!!!!!! For instance:`**
 
+Stanley's quick demo
+
+	rails new team_app
+	git init
+	git add -A
+	git commit -m "Init repo"
+	
+	// Create a branch
+	git checkout -b add_routes
+	
+	// Create a controller
+	rails g controller Pages home about
+	
+	// Check git status
+	git status
+	
+	// Add all files to be committed
+	git add -A
+	
+	// Commit
+	git commit -m "Added Rails controller and routes"
+	
+	// Get last commmit on branches
+	git branch -v
+	
+	// Switch back to master
+	git checkout master
+	
+	// Merge add_routes branch to master branch
+	git merge add_routes
 	
 
 
@@ -54,7 +87,7 @@ Initialize Repo
 
 	git init
 	
-	git remote add origin https://github.com/syang019/Github_Demo.git
+	git remote add origin https://github.com/syang019/Github_Demo.git (your github link)
 	
 	git push -u origin master
 	
@@ -68,8 +101,8 @@ One of you will work on home page, the other will work on about page
 Each of you will add a h1 title to your page (home.html.erb or about.html.erb) then add / commit the changes to your branch
 
 	git add -A
-	git commit -m "Changed (homepage/aboutpage) page"
-	git push origin (homepage/aboutpage)
+	git commit -m "Changed (homepage or aboutpage) page"
+	git push origin (homepage or aboutpage)
 
 Then compare your branch against the master by typing the following:
 
@@ -113,6 +146,16 @@ If you have merge conflicts, subl . or git mergetool to resolve conflicts
 To configure your mergetool, use
 
 	git config --global merge.tool kdiff3
+
+Or use Sublime by
+	
+	subl .
+
+And remove the code you **DON'T** want!
+
+**To set XCode as default, use**
+
+[Setting XCode as default mergetool](https://gist.github.com/kylefox/4512777)
 
 **Resolving Merge Conflicts**
 
