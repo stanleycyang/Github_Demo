@@ -87,7 +87,7 @@ Then, go onto Github and create a pull request
 	
 	7. Send Pull Request buttonClick Create pull request.
 
-**Source: **
+**Source:**
 	
 [Creating a pull request in Github](https://help.github.com/articles/creating-a-pull-request)
 
